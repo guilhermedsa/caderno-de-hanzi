@@ -1,0 +1,21 @@
+{
+  "name": "caderno-de-hanzi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PWA de estudo de hanzi por lição, baseado no vocabulário de 汉语教程 第一册(上).",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-data.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "hanzi-writer": "3.7.3",
+    "hanzi-writer-data": "2.0.1"
+  },
+  "devDependencies": {
+    "pinyin-pro": "3.29.5",
+    "sharp": "0.35.5"
+  }
+}
